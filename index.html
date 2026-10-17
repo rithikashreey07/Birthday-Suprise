@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100c28">
+  <meta name="description" content="A little countdown to a very big 22nd birthday celebration.">
+  <title>Cheers to 22! ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="party" id="party">
+    <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+    <div class="confetti" id="confetti" aria-hidden="true"></div>
+    <div class="content" aria-live="polite">
+      <div class="topline"><span>✦</span> INNAIKU UNGA SPECIAL DAY 💗 <span>✦</span></div>
+      <section class="countdown" id="countdown" aria-label="Birthday countdown">
+        <p class="countdown-label">Ready ah, Thangam? Surprise varudhu… 🤭</p>
+        <div class="number-wrap"><span class="number" id="number">5</span><span class="number-spark">✧</span></div>
+        <div class="countdown-track"><span id="progress"></span></div>
+        <p class="countdown-hint">KONJAM WAIT PANNUNGA… ✨</p>
+      </section>
+      <section class="welcome" id="welcome" hidden>
+        <div class="birthday-cake" aria-hidden="true"><span>🎂</span><i>✦</i><b>✧</b></div>
+        <p class="kicker">22 YEARS OF MY THANGAM ✨</p>
+        <h1>Cheers to<br><em>another year!</em></h1>
+        <div class="age-line"><span class="age-number">22</span><span class="age-label">years of<br>being <strong>iconic</strong></span></div>
+        <p class="wish">I made this little surprise just for you… hope it makes you smile! <span>🫂💗</span></p>
+        <button class="go-button" id="go-button" type="button"><span>Let’s go!</span><b aria-hidden="true">→</b></button>
+        <p class="button-note">UN BIRTHDAY SURPRISE READY AH? 🤭</p>
+      </section>
+      <section class="cake-screen" id="cake-screen" hidden>
+        <p class="kicker">UNAKAGA NAAN SENJA CHINNA CAKE 🤭</p>
+        <h2 class="screen-title">Happy Birthday,<br><em>Thangameh!</em> 💖</h2>
+        <p class="cake-instruction" id="cake-instruction">Kannai moodi oru wish pannunga… apram candle ah tap panni blow pannunga! 🤭</p>
+        <div class="cake-art" aria-label="A decorated birthday cake with a lit candle">
+          <span class="cake-sparkle sparkle-a">✦</span><span class="cake-sparkle sparkle-b">✧</span><span class="cake-sparkle sparkle-c">✦</span>
+          <button class="candle" id="candle" type="button" aria-label="Blow out the candle"><i class="flame"></i><span class="candle-wick"></span></button>
+          <div class="cake-top"></div><div class="cake-body"><span class="icing-drip"></span><span class="cake-decoration">✿　♡　✿</span></div><div class="cake-plate"></div>
+        </div>
+        <button class="blow-button" id="blow-button" type="button">💨 Blow out the candle</button>
+        <button class="surprise-next" id="surprise-next" type="button" hidden>Read your little diary <span>→</span></button>
+      </section>
+
+      <section class="diary-screen" id="diary-screen" hidden>
+        <div class="diary-heading"><span class="diary-icon">📖</span><p class="kicker">UNAKAGA, NERAYA LOVE-ODA 💗</p><h2 class="screen-title">En manasula<br><em>irukarthu…</em></h2></div>
+        <button class="diary-page" id="diary-page" type="button" aria-label="Turn to the next diary page">
+          <span class="page-deco">✿　♡　✿</span>
+          <span class="page-number" id="page-number">01 / 06</span>
+          <span class="page-sticker" id="page-sticker" aria-hidden="true">💌</span>
+          <span class="page-message" id="page-message"></span>
+          <span class="page-turn-hint" id="page-turn-hint">Tap here to turn the page <b>→</b></span>
+        </button>
+        <div class="page-dots" id="page-dots" aria-label="Diary page progress"></div>
+      </section>
+
+      <section class="finale-screen" id="finale-screen" hidden>
+        <div class="finale-heart" aria-hidden="true">💖</div>
+        <p class="kicker">MY FOREVER PERSON</p>
+        <h2 class="screen-title">Alwys be<br><em>so happyyyyyy!</em></h2>
+        <p class="finale-message">I'm alwys there to irritate youu throughout your journey 👻 will hold youuuu for my lifetime my love 😽❣️🫴🏻<br><br>Once again Iniya pirandhanaall nalvalzhukal Vettukararaeeee🥳🥳</p>
+        <p class="finale-signoff">Loveeeeeeeeee youuuuuuu to theeee coreeeeee diiii paaatttu 🌍💋💋</p>
+        <button class="again-button" id="again-button" type="button">Celebrate again <span>↻</span></button>
+      </section>
+      <footer>UNAKAGA NERAYA LOVE-ODA <span>♥</span></footer>
+    </div>
+  </main>
+</body>
+</html>
